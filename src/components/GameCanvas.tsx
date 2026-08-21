@@ -6,7 +6,8 @@ export default function GameCanvas() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-sky-100 gap-4">
-
+      <h1 className="text-2xl font-bold font-inter">Flappy Bird Remake</h1>
+      <p className="text-sm text-gray-600 font-sans">Left click or space to jump</p>
       <div className="shadow-lg" style={{ width: CANVAS_W, position: 'relative' }}>
         <canvas
           ref={canvasRef}
